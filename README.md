@@ -1,6 +1,6 @@
 ## Bootstrap Blog skin for b2evolution CMS.
 
-This responsive skin uses the twitter bootstrap framework. When the viewport is too narrow, the sidebar goes under the main area.
+This responsive skin uses the twitter bootstrap framework. When the viewport is too narrow, the sidebar goes under the main area.<br/>
 This skin is included in b2evolution 5.1.1, and only supported starting from that version.
 <br/>
 <img src="skinshot.png"/><br/><br/>
