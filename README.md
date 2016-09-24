@@ -12,3 +12,9 @@ This skin is included in b2evolution 5.1.1, and only supported starting from tha
 <img src="skinshot_posts.jpg"/><br/><br/>
 ### Single page
 <img src="skinshot_single.jpg"/>
+
+### Update Log:
+
+#### v6.7.6-stable
+- Implemented LESS modules for different widget layouts
+- Additional small skin fixes
