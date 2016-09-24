@@ -1,3 +1,27 @@
+// --------- Universal item list widget & Recent posts widget ---------
+@import "../../rsc/less/_universal_item_list_widget.module.less";
+// --------------------------------------------------------------------
+
+// ------------------- Media Index widget --------------------
+@import "../../rsc/less/_coll_media_index_widget.module.less";
+// -----------------------------------------------------------
+
+// ----------- User Avatars (User List) widget ------------
+@import "../../rsc/less/_user_avatars_widget.module.less";
+// --------------------------------------------------------
+
+// -----------------About Author widget -------------------
+@import "../../rsc/less/_about_author_widget.module.less";
+// --------------------------------------------------------
+
+// ------------- Organization Members widget -------------
+@import "../../rsc/less/_org_members_widget.module.less";
+	// Override constants used in the module:
+	@widget_core_org_members-color: #333;
+	@widget_core_org_members-user-link-color: #000;
+	@widget_core_org_members-user-link-hover-color: #23527c;
+// -------------------------------------------------------
+
 // Header
 .evo_container__header {
 	margin-bottom: 20px;
@@ -14,7 +38,7 @@
 
 // Intro post - Featured post background images sample
 //.well {
-//	background: url(images/7T0W8MYRN0.jpg) no-repeat center center; 
+//	background: url(images/7T0W8MYRN0.jpg) no-repeat center center;
 //	-webkit-background-size: cover;
 //	-moz-background-size: cover;
 //	-o-background-size: cover;
@@ -179,85 +203,6 @@ textarea.message_text {
 // Links disp=comment
 .evo_comment_title a, .pull-right .evo_comment_type {
 	color: #337ab7;
-}
-
-// Fix the form elements
-.comment_form {
-	h3 {
-		margin: 0;
-	}
-	.panel {
-		margin: 0;
-		border: none;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-		.panel-body {
-			padding: 0;
-		}
-	}
-}
-.form-horizontal {
-	.form-group, .custom_content {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	fieldset {
-		margin-top: 0;
-	}
-	input[type=file] {
-		display: inline;
-	}
-}
-#comment_date_field {
-	input {
-		width: 80px;
-	}
-	label {
-		font-weight: normal;
-	}
-}
-.form-group[id^="ffield_uploadfile"] .controls {
-	padding-top: 5px;
-	input {
-		line-height: 10px;
-	}
-}
-// Comment template
-.comment_rating {
-	margin-top: 2px;
-}
-#comment_edit .comment_rating {
-	margin-top: 9px;
-}
-.ratings_table {
-	margin-bottom: 10px;
-	.rating_summary {
-		border-spacing: 1px;
-		border-collapse: separate;
-	}
-	.progress {
-		border-radius: 0;
-		height: 13px;
-	}
-}
-#comment_preview {
-	background-color: #FFF;
-}
-#comment_date_field .panel {
-	border: none;
-	box-shadow: none;
-	margin-bottom: 0;
-	.panel-body {
-		padding: 0;
-		.control-label {
-			font-weight: bold;
-		}
-		.controls .form-group {
-			display: inline-block;
-			padding-left: 15px;
-			margin-bottom: 0;
-		}
-	}
 }
 
 .evo_post {
