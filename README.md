@@ -15,8 +15,8 @@ This skin is included in b2evolution 5.1.1, and only supported starting from tha
 
 ### Update Log:
 
-#### v6.7.7
--sync with latest bootstrap_manual_skin built-in version in b2evolution 6.7.7-stable
+#### v6.7.8-stable
+-sync with latest bootstrap_blog_skin built-in version in b2evolution 6.7.8-stable
 
 #### v6.7.6-stable
 - Implemented LESS modules for different widget layouts
